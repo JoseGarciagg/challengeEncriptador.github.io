@@ -17,7 +17,7 @@ function encriptar() {
       parrafo.textContent = "";
       muñeco.src = "./img/okabeKuriso1.jpg.jpeg";
     } else {
-      muñeco.src = "./img/okabe.jpg.jpeg";
+      muñeco.src = "./img/Muñeco.png";
       tituloMensaje.textContent = "Ningún mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
       swal("Ooops!", "Debes ingresar un texto", "warning");
@@ -41,9 +41,9 @@ function encriptar() {
         document.getElementById("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto desencriptado con éxito";
         parrafo.textContent = "";
-        muñeco.src = "./img/okabeKuriso3.jpg.jpeg";
+        muñeco.src = "./img/Muñeco.png";
       } else {
-        muñeco.src = "./img/okabe.jpg.jpeg";
+        muñeco.src = "./img/Muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal("Ooops!", "Debes ingresar un texto", "warning");
